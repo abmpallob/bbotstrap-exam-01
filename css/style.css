@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
+    font-family: 'Poppins', sans-serif;
 }
-.h-color{
+.th-section {
     background: #1d2144 ;
+    font-size: 12px;
 }
 .logo{
-    width: 200px;
+    width: 180px;
 }
+.mh-section ul li .nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px 12px !important;
+    
+}
+/* hero-section-start */
+.hero-section h1 {
+    font-weight: 500;
+    position: relative;
+}
+
+.hero-section h1::before {
+    content: "";
+    width: 5px;
+    background: #ffc107;
+    height: 155px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hero-section {
+    background: linear-gradient(#333e4ec2, #333e4ec2),
+        url(../media/image/1.jpg ) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0px !important;
+}
+/* hero-section-end */
