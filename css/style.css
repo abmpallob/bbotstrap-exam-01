@@ -2,6 +2,12 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+/* common-css-start */
+
+.font-12{
+    font-size: 12px;
+}
+/* common-css-end */
 .th-section {
     background: #1d2144 ;
     font-size: 12px;
@@ -23,7 +29,7 @@
 
 .hero-section h1::before {
     content: "";
-    width: 5px;
+    width: 4px;
     background: #ffc107;
     height: 155px;
     position: absolute;
@@ -38,3 +44,36 @@
     padding: 120px 0px !important;
 }
 /* hero-section-end */
+
+/* Platform-section-Start */
+.Platform-section .b{
+    font-weight: 600;
+}
+.Platform-section h5{
+     font-size: 16px;
+     color: #3a5877 !important;
+     font-weight: 600;
+}
+.font-13 {
+    font-size: 13px;
+    color: #9698b3 !important;
+}
+.Platform-section .a{
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+
+}
+.Platform-section h1::before{
+     content: "";
+     width: 4px;
+     background: #ffc107;
+     height: 87px;
+     position: absolute;
+     left: 0;
+}
+.font-12 {
+    font-size: 13px;
+    font-weight: 600;
+}
+/* Platform-section-end */
