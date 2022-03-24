@@ -7,6 +7,22 @@
 .font-12{
     font-size: 12px;
 }
+.bg-blue{
+    background: #1a3759 !important;
+}
+.bg-white{
+    background: #ffff !important;
+}
+.font-13 {
+    font-size: 13px;
+    color: #9698b3 !important;
+}
+.text-gray{
+color: #9698b3;
+}
+.text-blue {
+    color: #1a3759 !important;
+}
 /* common-css-end */
 .th-section {
     background: #1d2144 ;
@@ -46,6 +62,9 @@
 /* hero-section-end */
 
 /* Platform-section-Start */
+.programe-section{
+    padding-bottom: 235px !important;
+}
 .Platform-section .b{
     font-weight: 600;
 }
@@ -54,10 +73,7 @@
      color: #3a5877 !important;
      font-weight: 600;
 }
-.font-13 {
-    font-size: 13px;
-    color: #9698b3 !important;
-}
+
 .Platform-section .a{
     font-weight: 400;
     font-size: 36px;
@@ -77,3 +93,23 @@
     font-weight: 600;
 }
 /* Platform-section-end */
+
+/* Programe-section-start */
+.btn-blue{
+    background: #1a3759;
+}
+.programes{
+    box-shadow: 0px 0px 25px 2px #787d7f6b;
+}
+.br{
+    border: 1px solid #dadce0;
+}
+.programe{
+    margin-top: -205px !important;
+}
+.programe-section h1{
+    font-weight: 300;
+}.programe-section h1 strong{
+    font-weight: 600;
+}
+/* Programe-section-end */
