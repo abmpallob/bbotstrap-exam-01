@@ -2,6 +2,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #f3f8fb !important;
+}
 /* common-css-start */
 
 .font-12{
@@ -16,6 +19,9 @@
 .font-13 {
     font-size: 13px;
     color: #9698b3 !important;
+}
+.text-yellow{
+    color: #fcc741;
 }
 .text-gray{
 color: #9698b3;
@@ -101,9 +107,6 @@ color: #9698b3;
 .programes{
     box-shadow: 0px 0px 25px 2px #787d7f6b;
 }
-.br{
-    border: 1px solid #dadce0;
-}
 .programe{
     margin-top: -205px !important;
 }
@@ -113,3 +116,26 @@ color: #9698b3;
     font-weight: 600;
 }
 /* Programe-section-end */
+
+/* Popular Course-section-start */
+.Popular-Course .btn {
+    box-shadow: 0px 0px 24px 2px #787d7f47;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 25px;
+    margin-top: 29px;
+}
+.Popular-Course .card .card-body ul {
+    font-size: 13px;
+}
+h5.card-title {
+    font-size: 17px;
+}
+h6.card-subtitle.py-3 {
+    font-size: 14px;
+}
+p.ms-auto.mb-0.text {
+    color: #29db8b;
+    font-weight: 600;
+}
+/* Popular Course-section-end */
