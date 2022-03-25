@@ -139,3 +139,24 @@ p.ms-auto.mb-0.text {
     font-weight: 600;
 }
 /* Popular Course-section-end */
+
+/* Quality Education-section-start */
+h2.text-blue.pb-3 {
+    font-size: 37px;
+    font-weight: 400;
+}
+section.Quality.Education.bg-white {
+    padding: 115px 0px;
+}
+.w-75.ms-auto {
+    border: 10px solid #fcc741;
+    height: 382px;
+    border-radius: 5px;
+    position: relative;
+}
+img.w-100 {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+/* Quality Education-section-end */
