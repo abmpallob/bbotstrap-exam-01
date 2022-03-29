@@ -160,3 +160,23 @@ img.w-100 {
     left: -30px;
 }
 /* Quality Education-section-end */
+
+/* Free-Trial-section-start */
+.free-trial-section p {
+    font-size: 12px;
+    color: #fcc741;
+    margin-bottom: 5px;
+}
+h3.text-white.pb-0 {
+    font-size: 30px;
+}
+section.free-trial-section.bg-blue {
+    padding: 70px 0px;
+}
+a.btn.text-white.btn-warning.py-2.px-4.font-13.mt-3.me-5 {
+    margin-left: 100;
+}
+a.btn.text-white.btn-warning.py-2.px-4.font.mt-3.me-5 {
+    font-size: 13px;
+}
+/* Free-Trial-section-end */
