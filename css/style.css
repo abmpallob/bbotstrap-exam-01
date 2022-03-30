@@ -16,9 +16,11 @@ body{
 .bg-white{
     background: #ffff !important;
 }
+.bg-blue-2{
+    background: #1d2143 !important;
+}
 .font-13 {
     font-size: 13px;
-    color: #9698b3 !important;
 }
 .text-yellow{
     color: #fcc741;
@@ -29,6 +31,7 @@ color: #9698b3;
 .text-blue {
     color: #1a3759 !important;
 }
+
 /* common-css-end */
 .th-section {
     background: #1d2144 ;
@@ -64,6 +67,10 @@ color: #9698b3;
         url(../media/image/1.jpg ) center center no-repeat;
     background-size: cover;
     padding: 120px 0px !important;
+}
+button.btn.border.border-light.py-2.px-4.text-light:hover {
+    background: #ffffff;
+    color: #000 !important;
 }
 /* hero-section-end */
 
@@ -138,6 +145,18 @@ p.ms-auto.mb-0.text {
     color: #29db8b;
     font-weight: 600;
 }
+.popular-course .card {
+    position: relative;
+}
+span.abm {
+    position: absolute;
+    top: 168px;
+    left: 0;
+    background: #fcc741;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 14px;
+}
 /* Popular Course-section-end */
 
 /* Quality Education-section-start */
@@ -180,3 +199,67 @@ a.btn.text-white.btn-warning.py-2.px-4.font.mt-3.me-5 {
     font-size: 13px;
 }
 /* Free-Trial-section-end */
+
+/* Event-section-start */
+.event {
+    box-shadow: 0px 0px 24px 2px #787d7f47;
+    border-radius: 5px;
+}
+.col-md-5.img-box {
+    position: relative;
+}
+.event-section .event .img-box span {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 4px 0px;
+    width: 45px;
+    text-align: center;
+    background: #ffc107;
+}
+/* Event-section-end */
+
+/* review-section-start */
+.review .student-review {
+    width: 110%;
+    margin-top: 45px;
+    margin-left: -51px;
+    border-radius: 5px;
+    padding: 55px;
+}
+h1.text-light {
+    font-weight: 400;
+}
+.student-review span i {
+    font-size: 27px;
+}
+.student-review .student-img {
+    width: 50px;
+}
+/* review-section-end */
+
+/* Articles-Section-Start */
+.articles-section .btn {
+    box-shadow: 0px 0px 24px 2px #787d7f47;
+}
+a.btn.btn-white.font-13.py-2.px-4.text-dark {
+    font-size: 13px;
+}
+.articles-section .article {
+    box-shadow: 0px 0px 24px 2px #787d7f47;
+    border-radius: 5px;
+}
+/* Articles-Section-end */
+
+/* Footer-start */
+input.form-contro.font-13.d-block {
+    background: #0b2e63;
+    border: none;
+    padding: 11px 31px;
+    margin-bottom: 15px;
+}
+a.btn.btn-warning.font-13.text-light.px-5 {
+    font-size: 13px;
+}
+/* Footer-End */
+
